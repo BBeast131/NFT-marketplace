@@ -625,6 +625,51 @@
       "artifacts": [
         "BasicNft"
       ]
+    },
+    "E:\\GOOD.e.g._folio\\!   _NFT_marketplace\\root\\contracts\\test\\BasicNftTwo.sol": {
+      "lastModificationDate": 1755134494717,
+      "contentHash": "14f2ea5113ed89448fcbba74d1f9d877",
+      "sourceName": "contracts/test/BasicNftTwo.sol",
+      "solcConfig": {
+        "version": "0.8.25",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.25"
+      ],
+      "artifacts": [
+        "BasicNftTwo"
+      ]
     }
   }
 }

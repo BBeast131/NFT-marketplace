@@ -15,6 +15,18 @@ module.exports = {
     localhost: {
       chainId: 31337,
     },
+    
+    sepolia: {
+      url: process.env.SEPOLIA_RPC_URL || "https://sepolia.infura.io/v3/your-project-id",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 11155111,
+    },
+    
+    mainnet: {
+      url: process.env.MAINNET_RPC_URL || "https://mainnet.infura.io/v3/your-project-id",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 1,
+    },
   },
   namedAccounts: {
     deployer: {
